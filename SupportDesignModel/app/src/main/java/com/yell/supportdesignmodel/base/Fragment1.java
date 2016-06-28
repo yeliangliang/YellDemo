@@ -13,8 +13,6 @@ import com.yell.supportdesignmodel.R;
 
 /**
  * @author yeliangliang
- * @CreationTime 2016/6/24  17:22
- * @modifyTime 2016/6/24  17:22
  */
 public class Fragment1 extends Fragment {
     private RecyclerView recyclerView;

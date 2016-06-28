@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".base.MainActivity">
-
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -30,7 +29,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
+    <!-- DrawerLayout 的behavior属性决定了它本身的位置，否则它会和toolbar重叠 -->
     <android.support.v4.widget.DrawerLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

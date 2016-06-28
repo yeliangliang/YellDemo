@@ -30,7 +30,7 @@ public class CollapsingToolbarLayoutActivity extends AppCompatActivity {
         recyclerView.setAdapter(new ModelRecyclerAdapter());
 
         CollapsingToolbarLayout titleLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsingToolBarLayout);
-
+        //Title的必须设置在CollapsingToolbarLayout上
         titleLayout.setTitle("CollapsingToolbarLayoutDemo");
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);

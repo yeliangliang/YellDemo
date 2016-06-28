@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-
+        <!--  app:layout_scrollFlags 决定了是否滑动、如何滑动 -->
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsingToolBarLayout"
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
     </android.support.design.widget.AppBarLayout>
 
 
-
+    <!-- 滑动控件的behavior决定了其与Toolbar的联系，必须添加 -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
