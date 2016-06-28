@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewModel</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_hint">www.Yellcat.com</string>
+</resources>
